@@ -42,7 +42,10 @@ A lightweight **in‑app** HTTP proxy/logger for iOS that captures, inspects, an
 In Xcode: **File → Add Package Dependencies**, then select the product:
 
 ```swift
-.product(name: "JCProxy", package: "JCProxy")
+packages:
+  JCProxy:
+    url: https://github.com/jasminceco/JCProxy
+    from: 1.0.0
 ```
 
 ## Usage
