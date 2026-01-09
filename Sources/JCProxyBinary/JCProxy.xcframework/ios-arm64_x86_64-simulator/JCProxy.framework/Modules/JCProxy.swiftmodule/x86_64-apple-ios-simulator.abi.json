@@ -1,0 +1,3025 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "JCProxy",
+    "printedName": "JCProxy",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JCFailureNote",
+        "printedName": "JCFailureNote",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy13JCFailureNoteV20localizedDescriptionSSvp",
+            "mangledName": "$s7JCProxy13JCFailureNoteV20localizedDescriptionSSvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy13JCFailureNoteV20localizedDescriptionSSvg",
+                "mangledName": "$s7JCProxy13JCFailureNoteV20localizedDescriptionSSvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy13JCFailureNoteV6domainSSvp",
+            "mangledName": "$s7JCProxy13JCFailureNoteV6domainSSvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy13JCFailureNoteV6domainSSvg",
+                "mangledName": "$s7JCProxy13JCFailureNoteV6domainSSvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy13JCFailureNoteV4codeSivp",
+            "mangledName": "$s7JCProxy13JCFailureNoteV4codeSivp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy13JCFailureNoteV4codeSivg",
+                "mangledName": "$s7JCProxy13JCFailureNoteV4codeSivg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JCFailureNote",
+                "printedName": "JCProxy.JCFailureNote",
+                "usr": "s:7JCProxy13JCFailureNoteV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7JCProxy13JCFailureNoteV5errorACs5Error_p_tcfc",
+            "mangledName": "$s7JCProxy13JCFailureNoteV5errorACs5Error_p_tcfc",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy13JCFailureNoteV9hashValueSivp",
+            "mangledName": "$s7JCProxy13JCFailureNoteV9hashValueSivp",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy13JCFailureNoteV9hashValueSivg",
+                "mangledName": "$s7JCProxy13JCFailureNoteV9hashValueSivg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy13JCFailureNoteV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7JCProxy13JCFailureNoteV4hash4intoys6HasherVz_tF",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCFailureNote",
+                "printedName": "JCProxy.JCFailureNote",
+                "usr": "s:7JCProxy13JCFailureNoteV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCFailureNote",
+                "printedName": "JCProxy.JCFailureNote",
+                "usr": "s:7JCProxy13JCFailureNoteV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy13JCFailureNoteV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7JCProxy13JCFailureNoteV2eeoiySbAC_ACtFZ",
+            "moduleName": "JCProxy",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7JCProxy13JCFailureNoteV",
+        "mangledName": "$s7JCProxy13JCFailureNoteV",
+        "moduleName": "JCProxy",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JCLogLevel",
+        "printedName": "JCLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JCProxy.JCLogLevel.Type) -> JCProxy.JCLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JCProxy.JCLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCLogLevel",
+                        "printedName": "JCProxy.JCLogLevel",
+                        "usr": "s:7JCProxy10JCLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7JCProxy10JCLogLevelO4noneyA2CmF",
+            "mangledName": "$s7JCProxy10JCLogLevelO4noneyA2CmF",
+            "moduleName": "JCProxy"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JCProxy.JCLogLevel.Type) -> JCProxy.JCLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JCProxy.JCLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCLogLevel",
+                        "printedName": "JCProxy.JCLogLevel",
+                        "usr": "s:7JCProxy10JCLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7JCProxy10JCLogLevelO5erroryA2CmF",
+            "mangledName": "$s7JCProxy10JCLogLevelO5erroryA2CmF",
+            "moduleName": "JCProxy"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JCProxy.JCLogLevel.Type) -> JCProxy.JCLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JCProxy.JCLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCLogLevel",
+                        "printedName": "JCProxy.JCLogLevel",
+                        "usr": "s:7JCProxy10JCLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7JCProxy10JCLogLevelO4infoyA2CmF",
+            "mangledName": "$s7JCProxy10JCLogLevelO4infoyA2CmF",
+            "moduleName": "JCProxy"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JCProxy.JCLogLevel.Type) -> JCProxy.JCLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "JCProxy.JCLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCLogLevel",
+                        "printedName": "JCProxy.JCLogLevel",
+                        "usr": "s:7JCProxy10JCLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7JCProxy10JCLogLevelO5debugyA2CmF",
+            "mangledName": "$s7JCProxy10JCLogLevelO5debugyA2CmF",
+            "moduleName": "JCProxy"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCLogLevel",
+                "printedName": "JCProxy.JCLogLevel",
+                "usr": "s:7JCProxy10JCLogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCLogLevel",
+                "printedName": "JCProxy.JCLogLevel",
+                "usr": "s:7JCProxy10JCLogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy10JCLogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s7JCProxy10JCLogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "JCProxy",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JCProxy.JCLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7JCProxy10JCLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7JCProxy10JCLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy10JCLogLevelO8rawValueSivp",
+            "mangledName": "$s7JCProxy10JCLogLevelO8rawValueSivp",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy10JCLogLevelO8rawValueSivg",
+                "mangledName": "$s7JCProxy10JCLogLevelO8rawValueSivg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7JCProxy10JCLogLevelO",
+        "mangledName": "$s7JCProxy10JCLogLevelO",
+        "moduleName": "JCProxy",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JCProxyClient",
+        "printedName": "JCProxyClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JCProxyClient",
+                "printedName": "JCProxy.JCProxyClient",
+                "usr": "s:7JCProxy0A6ClientC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy0A6ClientC6sharedACvpZ",
+            "mangledName": "$s7JCProxy0A6ClientC6sharedACvpZ",
+            "moduleName": "JCProxy",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCProxyClient",
+                    "printedName": "JCProxy.JCProxyClient",
+                    "usr": "s:7JCProxy0A6ClientC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy0A6ClientC6sharedACvgZ",
+                "mangledName": "$s7JCProxy0A6ClientC6sharedACvgZ",
+                "moduleName": "JCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JCLogLevel",
+                "printedName": "JCProxy.JCLogLevel",
+                "usr": "s:7JCProxy10JCLogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy0A6ClientC8logLevelAA05JCLogD0Ovp",
+            "mangledName": "$s7JCProxy0A6ClientC8logLevelAA05JCLogD0Ovp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy0A6ClientC8logLevelAA05JCLogD0Ovg",
+                "mangledName": "$s7JCProxy0A6ClientC8logLevelAA05JCLogD0Ovg",
+                "moduleName": "JCProxy",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCLogLevel",
+                    "printedName": "JCProxy.JCLogLevel",
+                    "usr": "s:7JCProxy10JCLogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy0A6ClientC8logLevelAA05JCLogD0Ovs",
+                "mangledName": "$s7JCProxy0A6ClientC8logLevelAA05JCLogD0Ovs",
+                "moduleName": "JCProxy",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy0A6ClientC8logLevelAA05JCLogD0OvM",
+                "mangledName": "$s7JCProxy0A6ClientC8logLevelAA05JCLogD0OvM",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy0A6ClientC5startyyF",
+            "mangledName": "$s7JCProxy0A6ClientC5startyyF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy0A6ClientC4showyyF",
+            "mangledName": "$s7JCProxy0A6ClientC4showyyF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy0A6ClientC4hideyyF",
+            "mangledName": "$s7JCProxy0A6ClientC4hideyyF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7JCProxy0A6ClientC",
+        "mangledName": "$s7JCProxy0A6ClientC",
+        "moduleName": "JCProxy",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JCRequestRecorder",
+        "printedName": "JCRequestRecorder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JCRequestRecorder",
+                "printedName": "JCProxy.JCRequestRecorder",
+                "usr": "s:7JCProxy17JCRequestRecorderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy17JCRequestRecorderC6sharedACvpZ",
+            "mangledName": "$s7JCProxy17JCRequestRecorderC6sharedACvpZ",
+            "moduleName": "JCProxy",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCRequestRecorder",
+                    "printedName": "JCProxy.JCRequestRecorder",
+                    "usr": "s:7JCProxy17JCRequestRecorderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy17JCRequestRecorderC6sharedACvgZ",
+                "mangledName": "$s7JCProxy17JCRequestRecorderC6sharedACvgZ",
+                "moduleName": "JCProxy",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy17JCRequestRecorderC5clearyyF",
+            "mangledName": "$s7JCProxy17JCRequestRecorderC5clearyyF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findRequests",
+            "printedName": "findRequests(where:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[JCProxy.JCRequestTrace]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCRequestTrace",
+                    "printedName": "JCProxy.JCRequestTrace",
+                    "usr": "s:7JCProxy14JCRequestTraceV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(JCProxy.JCRequestTrace) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCRequestTrace",
+                    "printedName": "JCProxy.JCRequestTrace",
+                    "usr": "s:7JCProxy14JCRequestTraceV"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy17JCRequestRecorderC12findRequests5whereSayAA0B5TraceVGSbAGXE_tF",
+            "mangledName": "$s7JCProxy17JCRequestRecorderC12findRequests5whereSayAA0B5TraceVGSbAGXE_tF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findRequests",
+            "printedName": "findRequests(byPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[JCProxy.JCRequestTrace]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCRequestTrace",
+                    "printedName": "JCProxy.JCRequestTrace",
+                    "usr": "s:7JCProxy14JCRequestTraceV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy17JCRequestRecorderC12findRequests6byPathSayAA0B5TraceVGSS_tF",
+            "mangledName": "$s7JCProxy17JCRequestRecorderC12findRequests6byPathSayAA0B5TraceVGSS_tF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findRequests",
+            "printedName": "findRequests(byStatusCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[JCProxy.JCRequestTrace]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCRequestTrace",
+                    "printedName": "JCProxy.JCRequestTrace",
+                    "usr": "s:7JCProxy14JCRequestTraceV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy17JCRequestRecorderC12findRequests12byStatusCodeSayAA0B5TraceVGSi_tF",
+            "mangledName": "$s7JCProxy17JCRequestRecorderC12findRequests12byStatusCodeSayAA0B5TraceVGSi_tF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findRequests",
+            "printedName": "findRequests(byMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[JCProxy.JCRequestTrace]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCRequestTrace",
+                    "printedName": "JCProxy.JCRequestTrace",
+                    "usr": "s:7JCProxy14JCRequestTraceV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy17JCRequestRecorderC12findRequests8byMethodSayAA0B5TraceVGSS_tF",
+            "mangledName": "$s7JCProxy17JCRequestRecorderC12findRequests8byMethodSayAA0B5TraceVGSS_tF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7JCProxy17JCRequestRecorderC",
+        "mangledName": "$s7JCProxy17JCRequestRecorderC",
+        "moduleName": "JCProxy",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JCRequestTrace",
+        "printedName": "JCRequestTrace",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV2idSSvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV2idSSvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV2idSSvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV2idSSvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV3url10Foundation3URLVSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV3url10Foundation3URLVSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV3url10Foundation3URLVSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV3url10Foundation3URLVSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV6methodSSSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV6methodSSSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV6methodSSSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV6methodSSSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV7headersSDyS2SGSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV7headersSDyS2SGSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV7headersSDyS2SGSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV7headersSDyS2SGSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV4body10Foundation4DataVSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV4body10Foundation4DataVSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV4body10Foundation4DataVSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV4body10Foundation4DataVSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV4date10Foundation4DateVvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV4date10Foundation4DateVvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV4date10Foundation4DateVvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV4date10Foundation4DateVvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JCProxy.JCResponseTrace?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCResponseTrace",
+                    "printedName": "JCProxy.JCResponseTrace",
+                    "usr": "s:7JCProxy15JCResponseTraceV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JCProxy.JCResponseTrace?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCResponseTrace",
+                        "printedName": "JCProxy.JCResponseTrace",
+                        "usr": "s:7JCProxy15JCResponseTraceV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JCProxy.JCResponseTrace?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCResponseTrace",
+                        "printedName": "JCProxy.JCResponseTrace",
+                        "usr": "s:7JCProxy15JCResponseTraceV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvs",
+                "mangledName": "$s7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvs",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvM",
+                "mangledName": "$s7JCProxy14JCRequestTraceV8responseAA010JCResponseC0VSgvM",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "JCProxy.JCFailureNote?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JCFailureNote",
+                    "printedName": "JCProxy.JCFailureNote",
+                    "usr": "s:7JCProxy13JCFailureNoteV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JCProxy.JCFailureNote?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCFailureNote",
+                        "printedName": "JCProxy.JCFailureNote",
+                        "usr": "s:7JCProxy13JCFailureNoteV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "JCProxy.JCFailureNote?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JCFailureNote",
+                        "printedName": "JCProxy.JCFailureNote",
+                        "usr": "s:7JCProxy13JCFailureNoteV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvs",
+                "mangledName": "$s7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvs",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvM",
+                "mangledName": "$s7JCProxy14JCRequestTraceV5errorAA13JCFailureNoteVSgvM",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV8durationSdSgvp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV8durationSdSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV8durationSdSgvg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV8durationSdSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV8durationSdSgvs",
+                "mangledName": "$s7JCProxy14JCRequestTraceV8durationSdSgvs",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV8durationSdSgvM",
+                "mangledName": "$s7JCProxy14JCRequestTraceV8durationSdSgvM",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JCRequestTrace",
+                "printedName": "JCProxy.JCRequestTrace",
+                "usr": "s:7JCProxy14JCRequestTraceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7JCProxy14JCRequestTraceV2id7requestACSS_10Foundation10URLRequestVtcfc",
+            "mangledName": "$s7JCProxy14JCRequestTraceV2id7requestACSS_10Foundation10URLRequestVtcfc",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy14JCRequestTraceV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7JCProxy14JCRequestTraceV4hash4intoys6HasherVz_tF",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCRequestTrace",
+                "printedName": "JCProxy.JCRequestTrace",
+                "usr": "s:7JCProxy14JCRequestTraceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCRequestTrace",
+                "printedName": "JCProxy.JCRequestTrace",
+                "usr": "s:7JCProxy14JCRequestTraceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy14JCRequestTraceV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7JCProxy14JCRequestTraceV2eeoiySbAC_ACtFZ",
+            "moduleName": "JCProxy",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy14JCRequestTraceV9hashValueSivp",
+            "mangledName": "$s7JCProxy14JCRequestTraceV9hashValueSivp",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy14JCRequestTraceV9hashValueSivg",
+                "mangledName": "$s7JCProxy14JCRequestTraceV9hashValueSivg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7JCProxy14JCRequestTraceV",
+        "mangledName": "$s7JCProxy14JCRequestTraceV",
+        "moduleName": "JCProxy",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JCResponseTrace",
+        "printedName": "JCResponseTrace",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy15JCResponseTraceV10statusCodeSivp",
+            "mangledName": "$s7JCProxy15JCResponseTraceV10statusCodeSivp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy15JCResponseTraceV10statusCodeSivg",
+                "mangledName": "$s7JCProxy15JCResponseTraceV10statusCodeSivg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy15JCResponseTraceV7headersSDyS2SGSgvp",
+            "mangledName": "$s7JCProxy15JCResponseTraceV7headersSDyS2SGSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy15JCResponseTraceV7headersSDyS2SGSgvg",
+                "mangledName": "$s7JCProxy15JCResponseTraceV7headersSDyS2SGSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy15JCResponseTraceV4body10Foundation4DataVSgvp",
+            "mangledName": "$s7JCProxy15JCResponseTraceV4body10Foundation4DataVSgvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy15JCResponseTraceV4body10Foundation4DataVSgvg",
+                "mangledName": "$s7JCProxy15JCResponseTraceV4body10Foundation4DataVSgvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy15JCResponseTraceV4date10Foundation4DateVvp",
+            "mangledName": "$s7JCProxy15JCResponseTraceV4date10Foundation4DateVvp",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy15JCResponseTraceV4date10Foundation4DateVvg",
+                "mangledName": "$s7JCProxy15JCResponseTraceV4date10Foundation4DateVvg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(response:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JCResponseTrace",
+                "printedName": "JCProxy.JCResponseTrace",
+                "usr": "s:7JCProxy15JCResponseTraceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7JCProxy15JCResponseTraceV8response4dataACSo17NSHTTPURLResponseC_10Foundation4DataVSgtcfc",
+            "mangledName": "$s7JCProxy15JCResponseTraceV8response4dataACSo17NSHTTPURLResponseC_10Foundation4DataVSgtcfc",
+            "moduleName": "JCProxy",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7JCProxy15JCResponseTraceV9hashValueSivp",
+            "mangledName": "$s7JCProxy15JCResponseTraceV9hashValueSivp",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7JCProxy15JCResponseTraceV9hashValueSivg",
+                "mangledName": "$s7JCProxy15JCResponseTraceV9hashValueSivg",
+                "moduleName": "JCProxy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy15JCResponseTraceV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7JCProxy15JCResponseTraceV4hash4intoys6HasherVz_tF",
+            "moduleName": "JCProxy",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCResponseTrace",
+                "printedName": "JCProxy.JCResponseTrace",
+                "usr": "s:7JCProxy15JCResponseTraceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "JCResponseTrace",
+                "printedName": "JCProxy.JCResponseTrace",
+                "usr": "s:7JCProxy15JCResponseTraceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7JCProxy15JCResponseTraceV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7JCProxy15JCResponseTraceV2eeoiySbAC_ACtFZ",
+            "moduleName": "JCProxy",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7JCProxy15JCResponseTraceV",
+        "mangledName": "$s7JCProxy15JCResponseTraceV",
+        "moduleName": "JCProxy",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JCProxy\/IntermediateBuildFilesPath\/JCProxy.build\/Release-iphonesimulator\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 17,
+      "value": "\"JCProxy_JCProxy\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JCProxy\/IntermediateBuildFilesPath\/JCProxy.build\/Release-iphonesimulator\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 959,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JCProxy\/IntermediateBuildFilesPath\/JCProxy.build\/Release-iphonesimulator\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/JCProxy\/IntermediateBuildFilesPath\/JCProxy.build\/Release-iphonesimulator\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 45,
+      "value": "\"unable to find bundle named JCProxy_JCProxy\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 26,
+      "value": "\"JCProxyBreakpointChanged\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
+      "kind": "Array",
+      "offset": 313,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointStore.swift",
+      "kind": "Array",
+      "offset": 187,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 106,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 124,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 9,
+      "value": "\"JCProxy\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 9,
+      "value": "\"JCProxy\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRequestRecorder.swift",
+      "kind": "Array",
+      "offset": 162,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiMockUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3596,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiTreeFieldModel.swift",
+      "kind": "Array",
+      "offset": 1342,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCBreakpointsViewModel.swift",
+      "kind": "Array",
+      "offset": 159,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCBreakpointsViewModel.swift",
+      "kind": "Array",
+      "offset": 729,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
+      "kind": "Array",
+      "offset": 147,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 317,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
+      "kind": "Array",
+      "offset": 371,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 316,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 367,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 416,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 30,
+      "value": "\"jc.alert.export.failed.title\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 185,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
+      "kind": "Array",
+      "offset": 204,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 322,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 40,
+      "value": "\"jc.overlay.accessibility.network.trace\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 35,
+      "value": "\"antenna.radiowaves.left.and.right\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 25,
+      "value": "\"JCOverlayButtonPosition\""
+    },
+    {
+      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 922,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
