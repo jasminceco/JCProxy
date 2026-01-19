@@ -154,24 +154,6 @@ install_bundle "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.
 install_bundle "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
 normalize_info_plist "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
 normalize_info_plist "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
-ensure_info_plist_in_resources() {
-  local framework_path="$1"
-  local plist="$framework_path/Info.plist"
-  local resources_dir="$framework_path/Resources"
-
-  if [[ ! -f "$plist" ]]; then
-    echo "warning: framework Info.plist not found for resources copy"
-    return
-  fi
-
-  mkdir -p "$resources_dir"
-  cp "$plist" "$resources_dir/Info.plist"
-  rm -f "$plist"
-  ln -s "Resources/Info.plist" "$plist"
-}
-
-ensure_info_plist_in_resources "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
-ensure_info_plist_in_resources "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
 
 popd >/dev/null
 
