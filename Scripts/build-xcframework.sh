@@ -154,6 +154,16 @@ install_bundle "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.
 install_bundle "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
 normalize_info_plist "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
 normalize_info_plist "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
+cleanup_resources_info_plist() {
+  local framework_path="$1"
+  local resources_info="$framework_path/Resources/Info.plist"
+  if [[ -f "$resources_info" ]]; then
+    rm -f "$resources_info"
+  fi
+}
+
+cleanup_resources_info_plist "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
+cleanup_resources_info_plist "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
 
 popd >/dev/null
 
