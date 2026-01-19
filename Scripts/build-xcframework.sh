@@ -10,6 +10,7 @@ OUT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 BUILD_DIR="$OUT_DIR/Build"
 DERIVED_DATA_PATH="$BUILD_DIR/DerivedData"
 XCFRAMEWORK_PATH="$OUT_DIR/Sources/JCProxyBinary/JCProxy.xcframework"
+BUNDLE_IDENTIFIER="${BUNDLE_IDENTIFIER:-jcrequestrecorder.JCProxy}"
 
 mkdir -p "$BUILD_DIR"
 
@@ -102,6 +103,7 @@ install_bundle() {
   local framework_path="$1"
   local bundle_name="JCProxy_JCProxy.bundle"
   local bundle_src="$DERIVED_DATA_PATH/Build/Products/Release-iphoneos/$bundle_name"
+  local bundle_identifier="${BUNDLE_IDENTIFIER}.resources"
 
   if [[ ! -d "$bundle_src" ]]; then
     bundle_src="$(find "$DERIVED_DATA_PATH" -type d -name "$bundle_name" | head -n 1 || true)"
@@ -115,6 +117,18 @@ install_bundle() {
   mkdir -p "$framework_path/Resources"
   rm -rf "$framework_path/Resources/$bundle_name"
   cp -R "$bundle_src" "$framework_path/Resources/"
+
+  local bundle_plist="$framework_path/Resources/$bundle_name/Info.plist"
+  if [[ -f "$bundle_plist" ]]; then
+    plutil -convert xml1 "$bundle_plist" || true
+    /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier $bundle_identifier" "$bundle_plist" >/dev/null 2>&1 \
+      || /usr/libexec/PlistBuddy -c "Add :CFBundleIdentifier string $bundle_identifier" "$bundle_plist" || true
+    if ! /usr/libexec/PlistBuddy -c "Print :CFBundlePackageType" "$bundle_plist" >/dev/null 2>&1; then
+      /usr/libexec/PlistBuddy -c "Add :CFBundlePackageType string BNDL" "$bundle_plist" || true
+    else
+      /usr/libexec/PlistBuddy -c "Set :CFBundlePackageType BNDL" "$bundle_plist" || true
+    fi
+  fi
 }
 
 install_modules "Release-iphoneos" "$BUILD_DIR/JCProxy-iOS.xcarchive"
@@ -130,11 +144,11 @@ normalize_info_plist() {
 
   plutil -convert xml1 "$plist" || true
 
+  /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier $BUNDLE_IDENTIFIER" "$plist" >/dev/null 2>&1 \
+    || /usr/libexec/PlistBuddy -c "Add :CFBundleIdentifier string $BUNDLE_IDENTIFIER" "$plist" || true
+
   if ! /usr/libexec/PlistBuddy -c "Print :CFBundleExecutable" "$plist" >/dev/null 2>&1; then
     /usr/libexec/PlistBuddy -c "Add :CFBundleExecutable string JCProxy" "$plist" || true
-  fi
-  if ! /usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" "$plist" >/dev/null 2>&1; then
-    /usr/libexec/PlistBuddy -c "Add :CFBundleIdentifier string jcrequestrecorder.JCProxy" "$plist" || true
   fi
   if ! /usr/libexec/PlistBuddy -c "Print :CFBundleName" "$plist" >/dev/null 2>&1; then
     /usr/libexec/PlistBuddy -c "Add :CFBundleName string JCProxy" "$plist" || true
