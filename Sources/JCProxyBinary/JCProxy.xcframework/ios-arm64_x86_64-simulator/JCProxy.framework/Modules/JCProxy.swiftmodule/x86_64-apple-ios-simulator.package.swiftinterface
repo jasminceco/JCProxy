@@ -1,12 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature StrictConcurrency -enable-experimental-feature DebugDescriptionMacro -module-name JCProxy -package-name jcrequestrecorder
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import Combine
 import Foundation
-import Foundation/*.Bundle*/
-import Foundation/*.ProcessInfo*/
-import Foundation/*.URL*/
 import ObjectiveC
 import Swift
 import SwiftUI
@@ -32,7 +29,9 @@ public enum JCLogLevel : Swift.Int, Swift.Comparable {
   case info
   case debug
   public static func < (lhs: JCProxy.JCLogLevel, rhs: JCProxy.JCLogLevel) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -81,7 +80,9 @@ public struct JCResponseTrace : Swift.Hashable {
   public let headers: [Swift.String : Swift.String]?
   public let body: Foundation.Data?
   public let date: Foundation.Date
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(response: Foundation.HTTPURLResponse, data: Foundation.Data?)
+  #endif
   public static func == (a: JCProxy.JCResponseTrace, b: JCProxy.JCResponseTrace) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
