@@ -33,27 +33,6 @@
         "moduleName": "JCProxy"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "JCProxy"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "JCProxy"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "JCProxy"
-      },
-      {
         "kind": "TypeDecl",
         "name": "JCFailureNote",
         "printedName": "JCFailureNote",
@@ -2762,34 +2741,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/JCProxy.build\/Release-iphoneos\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
-      "kind": "StringLiteral",
-      "offset": 295,
-      "length": 17,
-      "value": "\"JCProxy_JCProxy\""
-    },
-    {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/JCProxy.build\/Release-iphoneos\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
-      "kind": "Array",
-      "offset": 959,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/JCProxy.build\/Release-iphoneos\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
-      "kind": "StringLiteral",
-      "offset": 1486,
-      "length": 9,
-      "value": "\".bundle\""
-    },
-    {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCProxyBinary\/Build\/DerivedData\/Build\/Intermediates.noindex\/JCProxy.build\/Release-iphoneos\/JCProxy.build\/DerivedSources\/resource_bundle_accessor.swift",
-      "kind": "StringLiteral",
-      "offset": 1638,
-      "length": 45,
-      "value": "\"unable to find bundle named JCProxy_JCProxy\""
-    },
     {
       "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
       "kind": "StringLiteral",

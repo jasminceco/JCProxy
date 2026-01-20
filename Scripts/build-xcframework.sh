@@ -98,25 +98,6 @@ install_modules() {
   echo "warning: no swiftmodule found for $platform"
 }
 
-install_bundle() {
-  local framework_path="$1"
-  local bundle_name="JCProxy_JCProxy.bundle"
-  local bundle_src="$DERIVED_DATA_PATH/Build/Products/Release-iphoneos/$bundle_name"
-
-  if [[ ! -d "$bundle_src" ]]; then
-    bundle_src="$(find "$DERIVED_DATA_PATH" -type d -name "$bundle_name" | head -n 1 || true)"
-  fi
-
-  if [[ -z "$bundle_src" || ! -d "$bundle_src" ]]; then
-    echo "warning: no resource bundle found"
-    return
-  fi
-
-  mkdir -p "$framework_path/Resources"
-  rm -rf "$framework_path/Resources/$bundle_name"
-  cp -R "$bundle_src" "$framework_path/Resources/"
-}
-
 install_modules "Release-iphoneos" "$BUILD_DIR/JCProxy-iOS.xcarchive"
 install_modules "Release-iphonesimulator" "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive"
 normalize_info_plist() {
@@ -150,28 +131,20 @@ normalize_info_plist() {
   fi
 }
 
-install_bundle "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
-install_bundle "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
 normalize_info_plist "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
 normalize_info_plist "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
-ensure_info_plist_in_resources() {
+
+remove_resources_plist() {
   local framework_path="$1"
-  local plist="$framework_path/Info.plist"
-  local resources_dir="$framework_path/Resources"
-
-  if [[ ! -f "$plist" ]]; then
-    echo "warning: framework Info.plist not found for resources copy"
-    return
+  local resources_plist="$framework_path/Resources/Info.plist"
+  if [[ -f "$resources_plist" ]]; then
+    rm -f "$resources_plist"
   fi
-
-  mkdir -p "$resources_dir"
-  cp "$plist" "$resources_dir/Info.plist"
-  rm -f "$plist"
-  ln -s "Resources/Info.plist" "$plist"
 }
 
-ensure_info_plist_in_resources "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
-ensure_info_plist_in_resources "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
+remove_resources_plist "$BUILD_DIR/JCProxy-iOS.xcarchive/Products/usr/local/lib/JCProxy.framework"
+remove_resources_plist "$BUILD_DIR/JCProxy-iOS-Sim.xcarchive/Products/usr/local/lib/JCProxy.framework"
+
 
 popd >/dev/null
 
