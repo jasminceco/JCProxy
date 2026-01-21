@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>24G419</string>
+	<string>24G90</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>JCProxy</string>
 	<key>CFBundleIdentifier</key>
-	<string>jcrequestrecorder.JCProxy</string>
+	<string>JCProxy</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,19 +27,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>23A339</string>
+	<string>21F77</string>
 	<key>DTPlatformName</key>
 	<string>iphonesimulator</string>
 	<key>DTPlatformVersion</key>
-	<string>26.0</string>
+	<string>17.5</string>
 	<key>DTSDKBuild</key>
-	<string>23A339</string>
+	<string>21F77</string>
 	<key>DTSDKName</key>
-	<string>iphonesimulator26.0</string>
+	<string>iphonesimulator17.5</string>
 	<key>DTXcode</key>
-	<string>2601</string>
+	<string>1540</string>
 	<key>DTXcodeBuild</key>
-	<string>17A400</string>
+	<string>15F31d</string>
 	<key>MinimumOSVersion</key>
 	<string>15.0</string>
 	<key>UIDeviceFamily</key>
