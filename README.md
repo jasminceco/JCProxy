@@ -18,7 +18,7 @@ A lightweight **in‑app** HTTP proxy/logger for iOS that captures, inspects, an
 - HAR and raw export options.
 - Breakpoints for response editing (status/body) and replay.
 - Floating overlay launcher (draggable).
-- JSON tree viewer with copyable values.
+- JSON tree viewer with copyable values and base64/JWT decoding.
 - Localized UI strings (EU languages included).
 
 ## Screenshots
@@ -70,6 +70,124 @@ From request details you can:
 - Share a raw request/response
 - Export HAR entries
 - Copy large values or full bodies
+
+## Localization Keys
+JCProxy uses the main app bundle for localization. If you want to localize these strings, add them to your app's Localizable.strings (keys are in English).
+
+```text
+Request Details
+REQUEST
+URL
+Method
+Time
+Duration
+REQUEST HEADERS
+REQUEST COOKIES
+REQUEST BODY
+RESPONSE
+Status Code
+RESPONSE HEADERS
+RESPONSE COOKIES
+RESPONSE CACHE
+RESPONSE BODY
+ERROR
+Description
+Domain
+Code
+Share Request
+Share Raw Details
+Share cURL
+Share HAR File
+Share Swift Model
+Share Mock Server File
+Cancel
+OK
+Copy
+Copied!
+Value copied to pasteboard.
+Export Failed
+Failed to export HAR file: %@
+No JSON payload available to generate a model.
+Failed to parse JSON payload.
+Failed to create Swift model file.
+Missing request URL.
+Missing request method.
+No response body available to generate a mock.
+Response body is not valid JSON.
+Unable to map request path to mock server pattern.
+Failed to create mock file.
+Network Requests
+Search requests...
+No network requests to export.
+Log Parse Error
+Share Failed
+Unable to generate Swift model.
+Unknown
+Error
+Loading...
+Copy Key: Value
+Decode Base64
+Decoded Base64
+Decoded JWT
+Header
+Body
+Signature
+JSON
+Text
+Bytes
+Object
+Array
+String
+Number
+Bool
+Null
+Invalid UTF-8 string
+key
+keys
+item
+items
+null
+Network Trace
+N/A
+%.3f seconds
+%.6f secs
+Cache data missing
+The cache information is missing from the entry
+Before request
+After request
+expires
+lastAccess
+eTag
+comment
+HTTP type
+Request Headers
+Request Cookies
+Request Body
+Request time
+Request status
+HTTP Response code
+Response Time
+Response Headers
+Response Cookies
+Response Cache
+Response Body
+Roundtrip duration
+Request Size
+Completed
+Failed
+Pending
+BREAKPOINT
+Enable response breakpoint
+Breakpoint
+Edit response and continue.
+Continue
+Apply Changes
+Breakpoints
+No breakpoints yet.
+Swipe to delete.
+Delete
+```
+
 ## Requirements
 - iOS 15+
 - Xcode 16+
