@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "JCProxy",
-    "printedName": "JCProxy",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -301,20 +301,6 @@
           "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -616,20 +602,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -911,20 +883,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -1195,20 +1153,6 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -2060,20 +2004,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -2506,20 +2436,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2533,6 +2449,34 @@
             "mangledName": "$sSQ"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
       },
       {
         "kind": "Import",
@@ -2613,6 +2557,160 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2741,6 +2839,34 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "JCProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "JCProxy"
       },
@@ -2763,238 +2889,861 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 26,
       "value": "\"JCProxyBreakpointChanged\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointCenter.swift",
       "kind": "Array",
       "offset": 313,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointStore.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCBreakpointStore.swift",
       "kind": "Array",
       "offset": 187,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 87,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 106,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 124,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 143,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 106,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 124,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 87,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 106,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 124,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
       "kind": "StringLiteral",
       "offset": 379,
       "length": 9,
       "value": "\"JCProxy\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCLogger.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 9,
       "value": "\"JCProxy\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRequestRecorder.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRequestRecorder.swift",
       "kind": "Array",
       "offset": 162,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiMockUtils.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3535,
+      "length": 21,
+      "value": "\"JCProxyRulesChanged\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3594,
+      "length": 21,
+      "value": "\"JCProxyRulesStoreV1\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleStore.swift",
+      "kind": "Dictionary",
+      "offset": 3702,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleStore.swift",
+      "kind": "Dictionary",
+      "offset": 3801,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleSyncModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
+      "length": 85,
+      "value": "\"https:\/\/jcrequestrecorder-config-server-production.up.railway.app\/api\/v1\/rules\/sync\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleSyncModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1112,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleSyncModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 43,
+      "value": "\"user_\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/Core\/JCRuleSyncModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiMockUtils.swift",
       "kind": "StringLiteral",
       "offset": 3596,
       "length": 9,
       "value": "\"default\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiTreeFieldModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiMockUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3596,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCApiTreeFieldModel.swift",
       "kind": "Array",
       "offset": 1237,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCBase64Decoder.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Helpers\/JCBase64Decoder.swift",
       "kind": "IntegerLiteral",
       "offset": 81,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCBreakpointsViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Components\/BackspaceAwareTextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1768,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Components\/BackspaceAwareTextField.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 11,
+      "value": "\"JCProxy.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Components\/RuleTreeItem.swift",
+      "kind": "BooleanLiteral",
+      "offset": 185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Engine\/RuleParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Engine\/RuleParser.swift",
+      "kind": "Array",
+      "offset": 227,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 81,
+      "length": 9,
+      "value": "\"KEYWORD\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 6,
+      "value": "\"PATH\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 10,
+      "value": "\"OPERATOR\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 7,
+      "value": "\"VALUE\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 9,
+      "value": "\"LOGICAL\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 7,
+      "value": "\"PAREN\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 81,
+      "length": 9,
+      "value": "\"KEYWORD\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 107,
+      "length": 6,
+      "value": "\"PATH\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 10,
+      "value": "\"OPERATOR\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 7,
+      "value": "\"VALUE\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 9,
+      "value": "\"LOGICAL\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 7,
+      "value": "\"PAREN\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 813,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2459,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "Dictionary",
+      "offset": 2499,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3290,
+      "length": 11,
+      "value": "\"PATH_NODE\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3322,
+      "length": 11,
+      "value": "\"PATH_LEAF\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 10,
+      "value": "\"OPERATOR\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 9,
+      "value": "\"KEYWORD\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3413,
+      "length": 7,
+      "value": "\"VALUE\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3290,
+      "length": 11,
+      "value": "\"PATH_NODE\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3322,
+      "length": 11,
+      "value": "\"PATH_LEAF\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 10,
+      "value": "\"OPERATOR\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 9,
+      "value": "\"KEYWORD\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3413,
+      "length": 7,
+      "value": "\"VALUE\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3828,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 9,
+      "value": "\"request\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 8,
+      "value": "\"output\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 9,
+      "value": "\"request\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 10,
+      "value": "\"response\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 712,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleSamples.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleUIConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 81,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Models\/RuleUIConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 459,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "Array",
+      "offset": 625,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "Array",
+      "offset": 702,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "Array",
+      "offset": 775,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 957,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 5,
+      "value": "\"n\/a\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 5,
+      "value": "\"n\/a\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/ViewModels\/RulesViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Views\/RuleEditorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 187,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Views\/RuleEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Views\/RuleEditorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 334,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Views\/RulesListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Views\/RulesListView.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Rules\/Views\/RulesListView.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCBreakpointsViewModel.swift",
       "kind": "Array",
       "offset": 159,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCBreakpointsViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCBreakpointsViewModel.swift",
       "kind": "Array",
       "offset": 729,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeRow.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeRow.swift",
       "kind": "IntegerLiteral",
       "offset": 119,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
       "kind": "Array",
       "offset": 147,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 317,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCLogTreeViewModel.swift",
       "kind": "Array",
       "offset": 424,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 158,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 266,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 316,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 367,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 416,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsViewModel.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 15,
       "value": "\"Export Failed\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestDetailsViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 304,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListView.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListView.swift",
       "kind": "BooleanLiteral",
       "offset": 185,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 226,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
       "kind": "StringLiteral",
       "offset": 140,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
       "kind": "Array",
       "offset": 204,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRequestListViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 322,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 267,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListView.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListView.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListViewModel.swift",
+      "kind": "Array",
+      "offset": 672,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 778,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListViewModel.swift",
+      "kind": "Array",
+      "offset": 910,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 950,
+      "length": 21,
+      "value": "\"JCProxyRulesSyncURL\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 25,
+      "value": "\"JCProxyRulesSyncEnabled\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/SwiftUI\/JCRulesListViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 24,
+      "value": "\"JCProxyRulesSyncUserID\""
+    },
+    {
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 15,
       "value": "\"Network Trace\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
       "kind": "StringLiteral",
       "offset": 634,
       "length": 35,
       "value": "\"antenna.radiowaves.left.and.right\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 25,
       "value": "\"JCOverlayButtonPosition\""
     },
     {
-      "filePath": "\/Users\/en3110284\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
+      "filePath": "\/Users\/jasminceco\/Documents\/Development\/JCRequestRecorder\/Sources\/JCProxy\/UI\/Windows\/JCOverlay.swift",
       "kind": "BooleanLiteral",
       "offset": 897,
       "length": 5,
